@@ -1,0 +1,13 @@
+﻿__pycache__/
+*.pyc
+*.pyo
+.env
+!backend/.env.example
+venv/
+.venv/
+uploads/*
+!uploads/.gitkeep
+*.log
+.DS_Store
+Thumbs.db
+postgres_data/
