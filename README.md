@@ -2,7 +2,7 @@
 
 A production-grade NLP application that compares resumes against job descriptions using semantic similarity, skill extraction, and gap analysis.
 
-## ✨ Features//
+## ✨ Features
 
 | Feature | Details |
 |---|---|
@@ -16,7 +16,7 @@ A production-grade NLP application that compares resumes against job description
 | REST API | FastAPI with auto-generated `/docs` |
 | Docker | One-command deployment with Docker Compose |
 
-## 🚀 Quick Start (Docker — Recommended)//
+## 🚀 Quick Start (Docker — Recommended)
 
 ### Windows (PowerShell)
 
@@ -42,7 +42,7 @@ docker compose up --build
 | FastAPI Interactive Docs | http://localhost:8000/docs |
 | Health Check | http://localhost:8000/health |
 
-## 🛑 Stop the Application//
+## 🛑 Stop the Application
 
 ```bash
 docker compose down
@@ -50,7 +50,7 @@ docker compose down
 docker compose down -v
 ```
 
-## 🏗️ Project Structure//
+## 🏗️ Project Structure
 
 ```
 ai-resume-jd-matcher/
@@ -83,7 +83,7 @@ ai-resume-jd-matcher/
 └── README.md
 ```
 
-## 🔧 API Reference//
+## 🔧 API Reference
 
 ### `POST /api/match`
 Upload a resume and get an analysis.
@@ -109,7 +109,7 @@ Returns recent match results from the database.
 ### `GET /health`
 Returns API and database status.
 
-## 🔑 Environment Variables (`backend/.env`)//
+## 🔑 Environment Variables (`backend/.env`)
 
 | Variable | Default | Description |
 |---|---|---|
@@ -118,7 +118,7 @@ Returns API and database status.
 | `ALGORITHM` | `HS256` | JWT algorithm |
 | `ACCESS_TOKEN_EXPIRE_MINUTES` | `60` | Token TTL |
 
-## 🐛 Troubleshooting//
+## 🐛 Troubleshooting
 
 | Problem | Solution |
 |---|---|
