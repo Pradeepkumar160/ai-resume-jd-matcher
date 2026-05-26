@@ -48,7 +48,7 @@ docker compose up --build
 docker compose down
 # To also remove the database volume:
 docker compose down -v
-```
+```   
 
 ## 🏗️ Project Structure
 
