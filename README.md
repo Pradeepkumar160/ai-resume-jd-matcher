@@ -118,7 +118,7 @@ Returns API and database status.
 | `ALGORITHM` | `HS256` | JWT algorithm |
 | `ACCESS_TOKEN_EXPIRE_MINUTES` | `60` | Token TTL |
 
-## 🐛 Troubleshooting
+## 🐛 Troubleshooting   
 
 | Problem | Solution |
 |---|---|
