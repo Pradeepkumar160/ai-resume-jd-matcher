@@ -3,7 +3,7 @@
 A production-grade NLP application that compares resumes against job descriptions using semantic similarity, skill extraction, and gap analysis.
 
 ## ✨ Features  
-
+ 
 | Feature | Details |
 |---|---|
 | Resume Parsing | PDF and DOCX support |
