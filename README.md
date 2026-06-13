@@ -1,4 +1,4 @@
-# 🤖 AI Resume ↔ JD Matcher
+# 🤖 AI Resume ↔ JD Matcher 
 
 A production-grade NLP application that compares resumes against job descriptions using semantic similarity, skill extraction, and gap analysis.
 
